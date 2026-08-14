@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Index page</title>
+    <title>Activities page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/resort_icon.png">
+            <style>
+
+    body {
+        padding-top: 86px;
+    }
+
+</style>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -13,7 +21,7 @@
  <!-- Header start -->
 <header>
 
-    <nav class="navbar navbar-expand-lg bg-warning shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-warning shadow-sm fixed-top">
 
         <div class="container">
 
@@ -224,7 +232,7 @@
 </header>
 <!-- Header end -->
 
-<!-- ================= ACTIVITIES BANNER ================= -->
+<!--  ACTIVITIES BANNER  -->
 
 <section class="d-flex align-items-center justify-content-center text-center"
          style="background-image:url('images/resort_banner11.jpg');
@@ -252,7 +260,7 @@
 </section>
 
 
-<!-- ================= ACTIVITIES TABLE ================= -->
+<!--  ACTIVITIES TABLE  -->
 
 <section class="py-5">
 
@@ -624,12 +632,13 @@
 </section>
 
 
-<!-- ================= FAQ ================= -->
+<!--  FAQ  -->
+
+
 
 <section class="py-5 bg-light">
 
     <div class="container">
-
 
         <div class="text-center mb-5">
 
@@ -647,235 +656,269 @@
 
             </h2>
 
-           
-
         </div>
 
 
-        <!-- Accordion -->
+        <!-- Main Accordion -->
 
         <div class="accordion shadow"
              id="activitiesFAQ">
 
-
-            <!-- FAQ 1 -->
-
-            <div class="accordion-item">
-
-                <h2 class="accordion-header">
-
-                    <button class="accordion-button fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqOne"
-                            aria-expanded="true"
-                            aria-controls="faqOne">
-
-                        🌊 What activities are available at the resort?
-
-                    </button>
-
-                </h2>
-
-                <div id="faqOne"
-                     class="accordion-collapse collapse "
-                     data-bs-parent="#activitiesFAQ">
-
-                    <div class="accordion-body text-secondary">
-
-                        Paradise Bay Resort offers a variety of
-                        activities including swimming, kayaking,
-                        snorkeling, jet skiing, beach volleyball,
-                        sunset cruises, cycling and fishing.
-
-                    </div>
-
-                </div>
-
-            </div>
+            <div class="row g-4">
 
 
-            <!-- FAQ 2 -->
+                <!--  LEFT CARD  -->
 
-            <div class="accordion-item">
+                <div class="col-md-6">
 
-                <h2 class="accordion-header">
+                    <div class="card border-0 shadow h-100">
 
-                    <button class="accordion-button collapsed fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqTwo"
-                            aria-expanded="false"
-                            aria-controls="faqTwo">
-
-                        🏊 Are swimming and beach activities free?
-
-                    </button>
-
-                </h2>
-
-                <div id="faqTwo"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#activitiesFAQ">
-
-                    <div class="accordion-body text-secondary">
-
-                        Swimming and beach volleyball are available
-                        free of charge for resort guests. Other
-                        activities may have separate charges.
-
-                    </div>
-
-                </div>
-
-            </div>
+                        <div class="card-body p-0">
 
 
-            <!-- FAQ 3 -->
+                            <!-- FAQ 1 -->
 
-            <div class="accordion-item">
+                            <div class="accordion-item">
 
-                <h2 class="accordion-header">
+                                <h2 class="accordion-header">
 
-                    <button class="accordion-button collapsed fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqThree"
-                            aria-expanded="false"
-                            aria-controls="faqThree">
+                                    <button class="accordion-button fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqOne"
+                                            aria-expanded="true"
+                                            aria-controls="faqOne">
 
-                        🛶 Do I need to book water activities in advance?
+                                        🌊 What activities are available at the resort?
 
-                    </button>
+                                    </button>
 
-                </h2>
+                                </h2>
 
-                <div id="faqThree"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#activitiesFAQ">
+                                <div id="faqOne"
+                                     class="accordion-collapse collapse "
+                                     data-bs-parent="#activitiesFAQ">
 
-                    <div class="accordion-body text-secondary">
+                                    <div class="accordion-body text-secondary">
 
-                        Advance booking is recommended for popular
-                        activities such as kayaking, snorkeling,
-                        jet skiing and sunset cruises.
+                                        Paradise Bay Resort offers a variety of
+                                        activities including swimming, kayaking,
+                                        snorkeling, jet skiing, beach volleyball,
+                                        sunset cruises, cycling and fishing.
 
-                    </div>
+                                    </div>
 
-                </div>
+                                </div>
 
-            </div>
+                            </div>
 
 
-            <!-- FAQ 4 -->
+                            <!-- FAQ 2 -->
 
-            <div class="accordion-item">
+                            <div class="accordion-item">
 
-                <h2 class="accordion-header">
+                                <h2 class="accordion-header">
 
-                    <button class="accordion-button collapsed fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqFour"
-                            aria-expanded="false"
-                            aria-controls="faqFour">
+                                    <button class="accordion-button collapsed fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqTwo"
+                                            aria-expanded="false"
+                                            aria-controls="faqTwo">
 
-                        👨‍👩‍👧‍👦 Are the activities suitable for families?
+                                        🏊 Are swimming and beach activities free?
 
-                    </button>
+                                    </button>
 
-                </h2>
+                                </h2>
 
-                <div id="faqFour"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#activitiesFAQ">
+                                <div id="faqTwo"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#activitiesFAQ">
 
-                    <div class="accordion-body text-secondary">
+                                    <div class="accordion-body text-secondary">
 
-                        Yes. Several activities are suitable for
-                        families and children. Our staff can help
-                        guests choose activities based on age and
-                        safety requirements.
+                                        Swimming and beach volleyball are available
+                                        free of charge for resort guests. Other
+                                        activities may have separate charges.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- FAQ 3 -->
+
+                            <div class="accordion-item">
+
+                                <h2 class="accordion-header">
+
+                                    <button class="accordion-button collapsed fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqThree"
+                                            aria-expanded="false"
+                                            aria-controls="faqThree">
+
+                                        🛶 Do I need to book water activities in advance?
+
+                                    </button>
+
+                                </h2>
+
+                                <div id="faqThree"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#activitiesFAQ">
+
+                                    <div class="accordion-body text-secondary">
+
+                                        Advance booking is recommended for popular
+                                        activities such as kayaking, snorkeling,
+                                        jet skiing and sunset cruises.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </div>
+
+                <!--  RIGHT CARD  -->
+
+                <div class="col-md-6">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <div class="card-body p-0">
 
 
-            <!-- FAQ 5 -->
+                            <!-- FAQ 4 -->
 
-            <div class="accordion-item">
+                            <div class="accordion-item">
 
-                <h2 class="accordion-header">
+                                <h2 class="accordion-header">
 
-                    <button class="accordion-button collapsed fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqFive"
-                            aria-expanded="false"
-                            aria-controls="faqFive">
+                                    <button class="accordion-button collapsed fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqFour"
+                                            aria-expanded="false"
+                                            aria-controls="faqFour">
 
-                        ☀️ What are the best activities for evening?
+                                        👨‍👩‍👧‍👦 Are the activities suitable for families?
 
-                    </button>
+                                    </button>
 
-                </h2>
+                                </h2>
 
-                <div id="faqFive"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#activitiesFAQ">
+                                <div id="faqFour"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#activitiesFAQ">
 
-                    <div class="accordion-body text-secondary">
+                                    <div class="accordion-body text-secondary">
 
-                        The sunset cruise and beach walk are excellent
-                        choices for enjoying the evening and watching
-                        the beautiful sunset over the ocean.
+                                        Yes. Several activities are suitable for
+                                        families and children. Our staff can help
+                                        guests choose activities based on age and
+                                        safety requirements.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- FAQ 5 -->
+
+                            <div class="accordion-item">
+
+                                <h2 class="accordion-header">
+
+                                    <button class="accordion-button collapsed fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqFive"
+                                            aria-expanded="false"
+                                            aria-controls="faqFive">
+
+                                        ☀️ What are the best activities for evening?
+
+                                    </button>
+
+                                </h2>
+
+                                <div id="faqFive"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#activitiesFAQ">
+
+                                    <div class="accordion-body text-secondary">
+
+                                        The sunset cruise and beach walk are excellent
+                                        choices for enjoying the evening and watching
+                                        the beautiful sunset over the ocean.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- FAQ 6 -->
+
+                            <div class="accordion-item">
+
+                                <h2 class="accordion-header">
+
+                                    <button class="accordion-button collapsed fw-bold"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqSix"
+                                            aria-expanded="false"
+                                            aria-controls="faqSix">
+
+                                        🏄 What should I bring for water activities?
+
+                                    </button>
+
+                                </h2>
+
+                                <div id="faqSix"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#activitiesFAQ">
+
+                                    <div class="accordion-body text-secondary">
+
+                                        Guests should bring comfortable swimwear,
+                                        sunscreen, towels and suitable footwear.
+                                        Safety equipment is provided for applicable
+                                        activities.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </div>
-
-
-            <!-- FAQ 6 -->
-
-            <div class="accordion-item">
-
-                <h2 class="accordion-header">
-
-                    <button class="accordion-button collapsed fw-bold"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqSix"
-                            aria-expanded="false"
-                            aria-controls="faqSix">
-
-                        🏄 What should I bring for water activities?
-
-                    </button>
-
-                </h2>
-
-                <div id="faqSix"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#activitiesFAQ">
-
-                    <div class="accordion-body text-secondary">
-
-                        Guests should bring comfortable swimwear,
-                        sunscreen, towels and suitable footwear.
-                        Safety equipment is provided for applicable
-                        activities.
-
-                    </div>
-
-                </div>
 
             </div>
-
 
         </div>
 
@@ -883,9 +926,9 @@
 
 </section>
 
-<!-- footer section -->
- <footer class="py-5"
-        style="background-color: #fff3c4;">
+ <!-- Footer Section Start -->
+
+<footer class="py-5 bg-warning-subtle">
 
     <div class="container">
 
@@ -1163,7 +1206,7 @@
 
                     <a href="https://www.facebook.com/"
                        target="_blank"
-                       class="me-3 text-primary">
+                       class="me-3 text-dark">
 
                         <i class="bi bi-facebook fs-4"></i>
 
@@ -1172,8 +1215,8 @@
 
                     <a href="https://www.instagram.com/"
                        target="_blank"
-                       class="me-3"
-                       style="color: palevioletred;">
+                       class="me-3 text-dark"
+                       >
 
                         <i class="bi bi-instagram fs-4"></i>
 
@@ -1191,7 +1234,7 @@
 
                     <a href="https://www.youtube.com/"
                        target="_blank"
-                       class="text-danger">
+                       class="text-dark">
 
                         <i class="bi bi-youtube fs-4"></i>
 
@@ -1229,7 +1272,7 @@
 
             <small class="text-secondary">
 
-                <i class="bi bi-heart-fill text-danger"></i>
+                <i class="bi bi-heart-fill text-dark"></i>
 
                 Your perfect escape by the sea
 
@@ -1241,5 +1284,7 @@
     </div>
 
 </footer>
+
+<!-- Footer Section End --> 
   </body>
 </html>
